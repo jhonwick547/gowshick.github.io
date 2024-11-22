@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,58 +7,76 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm Gowshick!</h1>
-        <p>Aspiring <strong>Mobile App Developer</strong> and <strong>Selenium Automation Tester</strong></p>
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm <strong>Gowshick</strong>, a passionate <strong>Mobile App Developer</strong> and <strong>Automation Tester</strong>.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I recently completed a course in Selenium automation testing with Python from Guvi, and I hold a BE in Electronics and Communication Engineering from Vinayaka Mission. My passion lies in developing applications and automating workflows.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
+    <nav class="navbar">
+        <div class="container">
             <ul>
-                <li>Python, Java</li>
-                <li>Selenium, Pytest</li>
-                <li>Android Studio, Visual Studio Code</li>
-                <li>Git, GitHub</li>
-                <li>Problem-solving, Debugging, Collaboration</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a tech enthusiast with a BE in Electronics and Communication Engineering from Vinayaka Mission. I recently honed my skills in Selenium automation testing with Python through Guvi. My goal is to deliver innovative solutions in mobile app development and automated testing.</p>
         </section>
-        <section id="projects">
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Java</div>
+                <div class="skill-item">Selenium</div>
+                <div class="skill-item">Pytest</div>
+                <div class="skill-item">Android Studio</div>
+                <div class="skill-item">Visual Studio Code</div>
+                <div class="skill-item">Git</div>
+                <div class="skill-item">Collaboration</div>
+            </div>
+        </section>
+        <section id="projects" class="section">
             <h2>Projects</h2>
-            <article>
-                <h3>Binance Trading Bot</h3>
-                <p>Automated trading bot with stop-loss and take-profit functionality using Binance API.</p>
-            </article>
-            <article>
-                <h3>Selenium Testing of OrangeHRM</h3>
-                <p>Automated test cases to validate OrangeHRM features using Selenium and Python.</p>
-            </article>
+            <div class="projects-grid">
+                <article class="project-item">
+                    <h3>Binance Trading Bot</h3>
+                    <p>Automated trading bot with advanced features like stop loss and take profit, leveraging the Binance API.</p>
+                </article>
+                <article class="project-item">
+                    <h3>Selenium Testing of OrangeHRM</h3>
+                    <p>Developed test cases to automate feature validation using Selenium and Python.</p>
+                </article>
+            </div>
         </section>
-        <section id="education">
+        <section id="education" class="section">
             <h2>Education</h2>
-            <p>BE in Electronics and Communication Engineering, Vinayaka Mission</p>
+            <p><strong>BE in Electronics and Communication Engineering</strong>, Vinayaka Mission</p>
         </section>
-        <section id="contact">
+        <section id="contact" class="section">
             <h2>Contact</h2>
             <p>Email: gowshick@example.com</p>
             <p>LinkedIn: <a href="#">LinkedIn Profile</a></p>
             <p>GitHub: <a href="#">GitHub Profile</a></p>
         </section>
     </main>
-    <footer>
-        <p>© 2024 Gowshick. All rights reserved.</p>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Gowshick. Built with passion.</p>
+            <div class="social-icons">
+                <a href="#" class="icon">LinkedIn</a>
+                <a href="#" class="icon">GitHub</a>
+                <a href="#" class="icon">Email</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
+
